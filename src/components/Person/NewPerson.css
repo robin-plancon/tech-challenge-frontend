@@ -1,0 +1,35 @@
+.new-person {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  color: #f4f4f4;
+  background-color: #f76c6c;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.new-person h2 {
+  font-size: 2.5rem;
+}
+
+.new-person form {
+  display: inline-block;
+}
+
+.new-person form label {
+  margin: 5px 10px 5px 0;
+  font-size: 2rem;
+  vertical-align: middle;
+  
+}
+
+@media (max-width: 800px) {
+  .new-person form input {
+     margin: 10px 0;
+  }
+  .new-person form {
+     flex-direction: column;
+     align-items: stretch;
+  }
+}

@@ -1,0 +1,11 @@
+.person-item {
+  border-radius: 20px;
+  background-color: #f76c6c;
+  margin: 20px;
+  overflow-wrap: anywhere;
+}
+
+.person-item li{
+  margin: 20px;
+  text-align: center;
+}
