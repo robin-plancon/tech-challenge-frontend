@@ -25,9 +25,16 @@
 }
 
 @media (max-width: 800px) {
+
+  .new-person {
+    width: 80%;
+    padding: 20px 5px;
+  }
+
   .new-person form input {
      margin: 10px 0;
   }
+
   .new-person form {
      flex-direction: column;
      align-items: stretch;
