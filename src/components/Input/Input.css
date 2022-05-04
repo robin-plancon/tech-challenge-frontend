@@ -18,7 +18,7 @@ input:hover {
 }
 
 input:focus {
-  background-color: #e1e1e1;
+  background-color: #f4f4f4;
   box-shadow: 10px 5px 5px #ce3f3f;
   outline: none;
 }

@@ -9,3 +9,7 @@
   margin: 20px;
   text-align: center;
 }
+
+.person-item:hover{
+  box-shadow: 10px 5px 5px #b6b6b6;;
+}
