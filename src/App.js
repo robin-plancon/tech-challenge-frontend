@@ -16,12 +16,15 @@ function App() {
     const fetchPersons = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch(process.env.REACT_APP_BACKEND_URL+"/persons", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
+        const response = await fetch(
+          process.env.REACT_APP_BACKEND_URL + "/persons",
+          {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
         const responseData = await response.json();
         setLoadedPersons(responseData.persons);
         setIsLoading(false);
@@ -39,13 +42,16 @@ function App() {
         name: personName,
       };
       let hasError = false;
-      const response = await fetch(process.env.REACT_APP_BACKEND_URL+"/persons", {
-        method: "POST",
-        body: JSON.stringify(newPerson),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        process.env.REACT_APP_BACKEND_URL + "/persons",
+        {
+          method: "POST",
+          body: JSON.stringify(newPerson),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (!response.ok) {
         hasError = true;

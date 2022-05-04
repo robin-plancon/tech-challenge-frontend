@@ -4,9 +4,9 @@
   color: #fff;
   background: #f76c6c;
   padding: 0.25em 0;
-  position: asolute;
-  bottom: 0;
+  position: fixed;
   width: 100%;
+  bottom: 0; 
 }
 
 .footer-content{
