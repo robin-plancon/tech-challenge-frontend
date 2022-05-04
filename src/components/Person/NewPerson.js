@@ -14,23 +14,25 @@ const NewPerson = (props) => {
   const submitPersonHandler = (event) => {
     event.preventDefault();
     props.onAddPerson(enteredName);
-    setEnteredName('');
+    setEnteredName("");
   };
 
   return (
-    <section id="new-person" className="new-person">
-      <h2>Ajouter une nouvelle personne</h2>
-      <form className="form-inline" onSubmit={submitPersonHandler}>
-        <Input
-          type="text"
-          label="Nom"
-          id="name"
-          value={enteredName}
-          onChange={nameChangeHandler}
-        />
-        <Button type="submit">Ajouter la personne</Button>
-      </form>
-    </section>
+    <div className="container-new-person">
+      <section id="new-person" className="new-person">
+        <h2>Ajouter une nouvelle personne</h2>
+        <form className="form-inline" onSubmit={submitPersonHandler}>
+          <Input
+            type="text"
+            label="Nom"
+            id="name"
+            value={enteredName}
+            onChange={nameChangeHandler}
+          />
+          <Button type="submit">Ajouter la personne</Button>
+        </form>
+      </section>
+    </div>
   );
 };
 

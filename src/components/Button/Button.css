@@ -2,8 +2,8 @@ button {
   margin-top: 10px;
   padding: 10px;
   font-size: 20px;
-  background-color: rgb(39, 22, 141);
-  border: 1px solid #ddd;
+  background-color: #27168d;
+  border: 1px solid #ce3f3f;
   color: white;
   cursor: pointer;
   font-weight: bolder;
@@ -12,5 +12,6 @@ button {
 }
 
 button:hover {
-  background-color: rgb(113, 65, 225);
+  background-color: #3400ae;
+  box-shadow: 10px 5px 5px #ce3f3f;
 }

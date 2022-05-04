@@ -8,4 +8,17 @@ input {
   text-align: center;
   font-size: medium;
   border-radius: 10px;
+  border: 0.1rem solid #ce3f3f;
+  background-color: #f4f4f4;
+}
+
+input:hover {
+  background-color: #e1e1e1;
+  box-shadow: 10px 5px 5px #ce3f3f;
+}
+
+input:focus {
+  background-color: #e1e1e1;
+  box-shadow: 10px 5px 5px #ce3f3f;
+  outline: none;
 }

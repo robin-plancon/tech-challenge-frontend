@@ -1,8 +1,11 @@
+.container-new-person {
+  color: #f4f4f4;
+}
+
 .new-person {
   text-align: center;
   margin-bottom: 30px;
   padding: 20px 0;
-  color: #f4f4f4;
   background-color: #f76c6c;
   border-radius: 10px;
   width: 50%;
